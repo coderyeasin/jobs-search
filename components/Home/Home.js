@@ -7,11 +7,13 @@ import HowWorks from '../HowWorks/HowWorks';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 import Subscribe from '../Subscribe/Subscribe';
+import styles from '../../styles/Home.module.css'
 
 const Home = () => {
     return (
-        <div>
-            <Header />
+        <div className=''>
+        {/* <div className='px-[70px] py-[40px]'> */}
+            {/* <Header /> */}
             <HeroSection />
             <Companies />
             <Categories />
