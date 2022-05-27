@@ -18,5 +18,29 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.notify{
+  background-image: url("../public/images/shapes.png");
+    background-color: #d65a5a;
+    height: 422px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -10px 0px;
+    display: flex;
+    /* z-index: 40; */
+    /* overflow: visible; */
+}
+.subscribe_shape{
+  background-image: url("../public/images/subscribe/shape.png");
+    /* background-color: #cccccc; */
+    height: 422px;
+    width: 50%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
