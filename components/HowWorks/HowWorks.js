@@ -37,7 +37,7 @@ const HowWorks = () => {
         </div>
       </div>
       <div className="profile_pic bg-[url('/images/works.png')] bg-center bg-cover bg-no-repeat h-[720px] w-[750px] relative">
-        <div className="interview_box bg-[#FFFDFD]/60 rounded-[16px] max-w-[311px] h-[110px] flex justify-evenly items-center absolute bottom-64 p-4">
+        <div className="interview_box bg-[#FFFDFD]/60 rounded-[16px] max-w-[311px] h-[110px] flex justify-evenly items-center absolute bottom-80 p-4">
           <span>
             <IoMdNotifications className="text-[#EB5757] text-[50px] rotate-[320deg] m-3 block" />
           </span>
@@ -53,7 +53,7 @@ const HowWorks = () => {
             </p>
           </div> */}
         </div>
-        <div className="interview_box bg-[#FFFDFD]/60 rounded-[16px] max-w-[311px] h-[110px] flex justify-evenly items-center absolute bottom-64 p-4">
+        <div className="interview_box bg-[#FFFDFD]/60 rounded-[16px] max-w-[311px] h-[110px] flex justify-evenly items-center absolute bottom-48 left-16 p-4">
           <span>
             <IoMdNotifications className="text-[#EB5757] text-[50px] rotate-[320deg] m-3 block" />
           </span>
