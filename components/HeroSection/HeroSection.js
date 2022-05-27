@@ -1,13 +1,14 @@
 import styles from "../../styles/Home.module.css";
-import { IoLocationOutline } from "react-icons/io";
+import { IoLocationOutline, IoMdNotifications } from "react-icons/io";
 import { FiSearch } from "react-icons/fi";
 import Header from "../Shared/Header/Header";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
     <div className={styles.hero_section}>
       <Header />
-      <div className="px-[70px]">
+      <div className="px-[70px] flex justify-between items-center">
         <div className="hero_content max-w-[672px] mt-[127px] h-[100vh] ">
           <h1 className="text-[84px] font-bold">
             Find the job of your <span className="text-[#F2994A]">Dreams</span>
@@ -34,7 +35,38 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="hero_image"></div>
+        <div className="profile_pic bg-[url('/images/hero_images.png')] bg-top-right bg-contain bg-no-repeat h-[720px] w-[750px] relative">
+          <div className="freelancer_box w-[179px] h-[258px] bg-[#FFFDFD]/60 rounded-[16px] absolute right-48 flex flex-col justify-start items-center p-4">
+            <Image
+              src="/images/profile/Mask group.png"
+              alt="profile"
+              height={86}
+              width={86}
+            />
+            <h3 className="text-[#333333] font-bold text-[21px] leading-7 mt-3">
+              Wartiyem
+            </h3>
+            <span className="text-[#828282] font-medium text-[14px] leading-6 mb-7 mt-2">
+              UI/UX Designer
+            </span>
+            <button className="w-[96px] h-[41px] rounded-[31px] bg-[#F2994A] text-white font-medium leading-6">
+              Hire Me
+            </button>
+          </div>
+          <div className="interview_box bg-[#FFFDFD]/60 rounded-[16px] max-w-[311px] h-[110px] flex justify-evenly items-center absolute bottom-64 p-4">
+            <span>
+              <IoMdNotifications className="text-[#EB5757] text-[50px] rotate-[320deg] m-3 block" />
+            </span>
+            <div className="interview_con">
+              <h3 className="text-[#333333] font-bold text-[21px] leading-7">
+                You Are Hired
+              </h3>
+              <p className="text-[#4F4F4F] font-medium text-[14px] leading-6">
+                Congrats you got the job as Ui / UX Designer at CODE.ID
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
