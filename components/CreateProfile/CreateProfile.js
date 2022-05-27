@@ -3,7 +3,7 @@ import { IoMdNotifications } from "react-icons/io";
 
 const CreateProfile = () => {
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center my-[89px]">
       <div className="profile_pic bg-[url('/images/profile.png')] bg-center bg-cover bg-no-repeat h-[610px] w-[750px] relative">
         <div className="freelancer_box w-[179px] h-[258px] bg-[#FFFDFD]/60 rounded-[16px] absolute right-48 flex flex-col justify-start items-center p-4">
           <Image
@@ -36,14 +36,14 @@ const CreateProfile = () => {
           </div>
         </div>
       </div>
-      <div className="profile_content space-y-10">
+      <div className="profile_content ">
         <h4 className="font-medium text-[25px] leading-8 text-[#F2994A]">
           Create Profile
         </h4>
-        <h3 className="font-semibold text-[46px] leading-10 text-[#333333] max-w-[464px]">
+        <h3 className="font-semibold text-[46px] leading-[55px] text-[#333333] max-w-[464px] my-6">
           Build Your Personal Account Profile
         </h3>
-        <p className="max-w-[689px]">
+        <p className="max-w-[689px] text-[21px] font-light leading-7 mb-[95px]">
           Create an account for the job information you want, get daily
           notifications and you can easily apply directly to the company you
           want and create an account now for free
