@@ -1,5 +1,4 @@
 import styles from '../../styles/Home.module.css'
-// import img from "../../public/images/shape.png";
 
 const Subscribe = () => {
     return (

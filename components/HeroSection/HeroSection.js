@@ -26,12 +26,20 @@ const HeroSection = () => {
               <li className="mx-6">UI/UX Designer</li>
               <li>Frontend</li>
             </ul>
-            <div className="input_grp">
-              {/* <FiSearch /> */}
-              <input type="text" placeholder="Job title or keyword" />
-              {/* <IoLocationOutline /> */}
-              <input type="text" placeholder="Bandung, Indonesia" />
-              <button>Search</button>
+            <div className="max-w-[672px] p-6 rounded-[52px] bg-white relative flex">
+              <input
+                type="text"
+                className="border-none "
+                placeholder="Enter your email address here..."
+              />
+              <input
+                type="text"
+                className="border-none "
+                placeholder="Enter your email address here..."
+              />
+              <button className="bg-[#F2994A] w-[130px] h-[45px] text-[21px] font-normal leading-relaxed text-white rounded-[52px] after:absolute after:border-[#E0E0E0] after:border-l-4 after:left-72 after:top-6 after:bottom-6">
+                Search
+              </button>
             </div>
           </div>
         </div>
