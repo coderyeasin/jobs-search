@@ -3,7 +3,7 @@ import { IoMdNotifications } from "react-icons/io";
 
 const CreateProfile = () => {
   return (
-    <div className="flex justify-center my-[89px]">
+    <div className="flex justify-around my-[150px] mx-[70px]">
       <div className="profile_pic bg-[url('/images/profile.png')] bg-center bg-cover bg-no-repeat h-[610px] w-[750px] relative">
         <div className="freelancer_box w-[179px] h-[258px] bg-[#FFFDFD]/60 rounded-[16px] absolute right-48 flex flex-col justify-start items-center p-4">
           <Image
