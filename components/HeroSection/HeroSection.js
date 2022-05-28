@@ -1,10 +1,8 @@
-import styles from "../../styles/Home.module.css";
 import { IoFlashSharp } from "react-icons/io5";
-import { FiSearch } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
-import { FaBriefcase, FaLocationArrow, FaSearch } from "react-icons/fa";
+import { FaBriefcase, FaSearch } from "react-icons/fa";
 import Header from "../Shared/Header/Header";
-
+import styles from "../../styles/Home.module.css";
 
 const HeroSection = () => {
   return (

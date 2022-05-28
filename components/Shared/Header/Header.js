@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { FiSearch } from "react-icons/fi";
 import styles from '../../../styles/Home.module.css'
 const Header = () => {

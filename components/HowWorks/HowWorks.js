@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { IoMdNotifications } from "react-icons/io";
 import { FiLogOut } from "react-icons/fi";
 import { FcOk } from "react-icons/fc";
 
