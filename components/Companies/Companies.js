@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import images from "../../public/images/slack.png"
 
 
 const Companies = () => {
