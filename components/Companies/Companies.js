@@ -5,12 +5,12 @@ import Image from "next/image";
 const Companies = () => {
     return (
       <div className="bg-white px-[70px]">
-        <h3 className="font-medium text-[25px] leading-8 text-center py-16">
-          Join Most Well Known{" "}
-          <span className="text-[#F2994A] ">Companies </span>
+        <h3 className="font-medium text-[25px] leading-8 text-center pt-16">
+          Join Most Well Known
+          <span className="text-[#F2994A] "> Companies </span>
           Around The World
         </h3>
-        <div className="companies_logo flex justify-between pb-[115px]">
+        <div className="companies_logo flex justify-between  pb-[115px] mt-[79px]">
           <Image src="/images/slack.png" alt="slack" width={156} height={40} />
 
           <Image
